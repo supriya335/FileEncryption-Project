@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer{
+    width : 100%;
+    height : 100vh;
+    box-sizing: border-box;
+   }
+
+.mainbox{
+    width:1100px;
+    height:370px;
+    background-color: rgb(245, 235, 255);
+    margin-top: 30px;
+    margin-left: 130px;
+    box-sizing: border-box;
+    border:3px dashed rgb(135, 227, 255);
+}
+.content{
+   
+}
+h1{
+   
+    font-size: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    color: aliceblue;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Signika Negative', sans-serif;
+    color: aliceblue;
+ }
+.imgbox{
+    height:100px;
+    width:auto;
+    box-sizing: border-box;
+ }
+.logo1{
+    width:130px;
+    height:130px;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.logo2{
+    width:130px;
+    height:130px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+#btn1{
+    display:block;
+    height: 66px;
+    width: 185px;
+    border-radius: 7px;
+    border-style: dotted;
+    border-color:black;
+    background-color: rgb(135, 227, 255);
+   
+}
+#btn2{
+    display:block;
+    height: 66px;
+    width: 185px;
+    border-radius: 7px;
+    border-style: dotted;
+    border-color: black;
+    margin-left: 365px;
+    background-color: rgb(135, 227, 255);
+   
+    
+}
+.btndiv{
+    margin-top: 118px;
+    margin-left: 185px;
+    display:flex;
+}
+.btndiv img{
+    width: 36px;
+    margin-right: 120px;
+    height: 37px;
+    margin-bottom: 8px;
+    
+}
+.btndiv h4{
+    margin-left: 32px;
+    margin-top: -35px;
+}
+
+  .bgvideo{
+    position: fixed;
+    z-index: -1;
+  }
+  @media(min-aspect-ratio:16/9){
+    .bgvideo{
+width:100%;
+height:auto;
+    }
+  }
+  @media(max-aspect-ratio:16/9){
+    .bgvideo{
+width:100%;
+height:auto;
+    }
+  }
+  #dialogbtn1{
+    display:none;
+  }
+  #dialogbtn2{
+    display:none;
+  }

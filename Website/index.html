@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="script.js"></script>
+  <title>FileSecurity</title>
+</head>
+
+<body>
+  <div class="maincontainer">
+
+    <video class="bgvideo" autoplay muted loop>
+      <source src="bgvideo.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+      <center>
+        <h1>File Encryption and Decryption</h1>
+      </center>
+      <center>
+        <h3>Encrypt and Decrypt your Files and secure your data</h3>
+      </center>
+      <div class="mainbox">
+        <div class="imgbox">
+          <img class="logo1" src="encryptlogo.png" alt="encryptlogoimage">
+          <img class="logo2" src="decryptlog.png" alt="decryptlogoimage">
+        </div>
+        <div class="btndiv">
+
+          <input type="file" name="dialog1" id="dialogbtn1">
+          <button type="button" id="btn1" onClick="clickme()"><img src="file.png" />
+            <h4>ENCRYPT FILE</h4>
+          </button>
+          <input type="file" name="dialog2" id="dialogbtn2">
+          <button type="button" id="btn2" onClick="clickme1()"><img src="file.png" />
+            <h4>DECRYPT FILE</h4>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
